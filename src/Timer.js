@@ -1,14 +1,14 @@
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import PlayButton from "./PlayButton.js";
-import PauseButton from "./PauseButton.js";
-import SettingsButton from "./SettingsButton.js";
+import PlayButton from "./PlayButton";
+import PauseButton from "./PauseButton";
+import SettingsButton from "./SettingsButton";
+// import { useContext } from "react";
+// import SettingsContext from "./SettingsContext";
 
 //https://www.npmjs.com/package/react-circular-progressbar
 
-const percentage = 66;
-const red = "red";
-
+const percentage = 50;
 function Timer() {
   return (
     <div>

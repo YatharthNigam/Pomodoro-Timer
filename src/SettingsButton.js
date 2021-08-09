@@ -1,6 +1,11 @@
+import { useContext } from "react";
+import SettingsContext from "./SettingsContext";
+
 function SettingsButton() {
+  const settingsInfo = useContext(SettingsContext);
+
   return (
-    <button className="settingsButton">
+    <button className="settingsButton" onClick={() => settingsInfo.setShowSettings(true)}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-5 w-5"

@@ -2,11 +2,11 @@
   height: 40px;
   border: 2px solid black;
   border-radius: 20px;
-  background-color:var(--red);
+  /* background-color:var(--red); */
 }
 
 .thumb {
-  background-image:var(--red);
+  background-color:var(--red);
   cursor: pointer;
   width: 40px;
   height: 40px;
@@ -17,6 +17,6 @@
     border: 2px solid black;
 }
 
-.slider.break.thumb {
+.slider.break .thumb {
     background-color: var(--green);
 }
