@@ -1,10 +1,5 @@
-:root{
-  --red:#f54e4e;
-  --green:#4aec8c;
-}
-
 body {
-  background-color: yellow;
+  background-color: #eae7dc;
   color: Black;
 }
 
@@ -17,7 +12,7 @@ main {
 
 button {
   background-color: transparent;
-  color: black;
+  color: #e85a4f;
   border: 0;
   display: inline-block;
   width: 100px;
@@ -26,7 +21,8 @@ button {
 
 button.settingsButton {
   width: auto;
-  background-color:grey;
+  color: black;
+  background-color: #8e8d8a;
   border-radius: 10px;
   padding: 10px 20px;
   font-size: 1.4rem;
@@ -39,8 +35,8 @@ button.settingsButton svg {
   margin-right: 5px;
 }
 
-label{
-  display:block;
+label {
+  display: block;
   margin-top: 10px;
   margin-bottom: 20px;
   text-transform: capitalize;
